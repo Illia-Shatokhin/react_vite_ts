@@ -187,4 +187,4 @@ Error generating stack: `+o.message+`
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 100% 100%;
-`,I1="",j1=()=>(console.log(I1),$.jsx(O1,{children:$.jsx(em,{children:$.jsxs(cn,{path:"/",element:$.jsx(v1,{}),children:[$.jsx(cn,{path:"/first",element:$.jsx(x1,{})}),$.jsx(cn,{path:"/second",element:$.jsx(P1,{}),children:$.jsx(cn,{path:":half",element:$.jsx(R1,{})})}),$.jsx(cn,{path:"*",element:$.jsx(L1,{})})]})})}));tu.createRoot(document.getElementById("root")).render($.jsx(bt.StrictMode,{children:$.jsx(im,{basename:"/react_vite_ts",children:$.jsx(j1,{})})}));
+`,I1="Hello, world!",j1=()=>(console.log(I1),$.jsx(O1,{children:$.jsx(em,{children:$.jsxs(cn,{path:"/",element:$.jsx(v1,{}),children:[$.jsx(cn,{path:"/first",element:$.jsx(x1,{})}),$.jsx(cn,{path:"/second",element:$.jsx(P1,{}),children:$.jsx(cn,{path:":half",element:$.jsx(R1,{})})}),$.jsx(cn,{path:"*",element:$.jsx(L1,{})})]})})}));tu.createRoot(document.getElementById("root")).render($.jsx(bt.StrictMode,{children:$.jsx(im,{basename:"/react_vite_ts",children:$.jsx(j1,{})})}));
