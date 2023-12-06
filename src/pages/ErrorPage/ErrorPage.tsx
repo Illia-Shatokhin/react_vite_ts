@@ -1,6 +1,7 @@
+import { FC, ReactElement } from 'react';
 import { Container, Title } from './ErrorPage.styled';
 
-const ErrorPage = () => {
+const ErrorPage: FC = (): ReactElement => {
   return (
     <Container>
       <Title>404</Title>

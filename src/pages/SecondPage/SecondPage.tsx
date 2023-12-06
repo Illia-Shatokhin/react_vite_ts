@@ -1,6 +1,7 @@
+import { FC, ReactElement } from 'react';
 import { Container, Block, Title, StyledLink } from './SecondPage.styled';
 
-const SecondPage = () => {
+const SecondPage: FC = (): ReactElement => {
   return (
     <Container>
       <Block>

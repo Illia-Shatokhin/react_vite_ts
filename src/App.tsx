@@ -1,3 +1,4 @@
+import { FC, ReactElement } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import SharedLayout from './components/SharedLayout/SharedLayout';
 import FirstPage from './pages/FirstPage/FirstPage';
@@ -6,9 +7,9 @@ import HalfPage from './pages/HalfPage/HalfPage';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import { AppWrapper } from './App.styled';
 
-const test = import.meta.env.VITE_API_TEST;
+const test: string = import.meta.env.VITE_API_TEST;
 
-function App() {
+const App: FC = (): ReactElement => {
   console.log(test);
   return (
     <AppWrapper>
@@ -23,5 +24,5 @@ function App() {
       </Routes>
     </AppWrapper>
   );
-}
+};
 export default App;
