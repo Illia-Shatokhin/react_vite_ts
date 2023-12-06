@@ -1,7 +1,12 @@
 {
   "name": "react_vite_ts",
   "description": "Це шаблон проекту, який використовує React, Vite та TypeScript для швидкої та ефективної розробки веб-додатків.",
-  "keywords": ["react", "vite", "typescript", "template"],
+  "keywords": [
+    "react",
+    "vite",
+    "typescript",
+    "template"
+  ],
   "author": "Illia Shatokhin <resonance.2106@gmail.com>",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +14,7 @@
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --write ./src"
   },
@@ -27,6 +32,7 @@
     "@swc/core": "^1.3.84",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/parser": "^6.13.2",
     "@vitejs/plugin-react": "^4.0.3",
     "eslint": "^8.45.0",
     "eslint-config-prettier": "^9.0.0",
@@ -36,6 +42,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "prettier": "3.1.0",
+    "typescript": "^5.3.3",
     "vite": "^5.0.6"
   },
   "lint-staged": {
