@@ -15,8 +15,8 @@ jobs:
 
       - name: Install, build 🔧
         run: |
-          npm install
-          npm run build
+          yarn install
+          yarn build
           cp ./dist/index.html ./dist/404.html
 
       - name: Deploy 🚀
