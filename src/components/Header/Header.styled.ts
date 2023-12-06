@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+interface StyledComponentsProps {
+  size?: string;
+}
+
 export const HeaderContainer = styled.div`
   padding: 20px;
 `;
@@ -36,7 +40,7 @@ export const StyledLink = styled(Link)`
   }
 `;
 
-export const IconWrapper = styled.svg`
+export const IconWrapper = styled.svg<StyledComponentsProps>`
   width: ${(props) => props.size || '12px'};
   height: ${(props) => props.size || '12px'};
   fill: ${(props) => props.color || '#ffffff'};

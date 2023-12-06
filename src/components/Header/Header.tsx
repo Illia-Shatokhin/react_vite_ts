@@ -7,7 +7,6 @@ import {
 import sprite from 'assets/sprite.svg';
 
 export const Header = () => {
-
   return (
     <HeaderContainer>
       <Navigation>
